@@ -20,23 +20,47 @@
     height: 100%;
 }
 
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+To import an external font source
 */
+* {
+    margin: 100px;
+    width: 200px;
+}
 
 h1 {
     color: blue;
 }
+
+/* 
+Creating a box model
+ */
+ #h2p {
+    border: 5px solid blue;
+    margin: 50px;
+    padding: 50px;
+
+ }
+
 #oi {
-    color: red;
+    color: black;
     font-size: 60px;
-    background-color: silver;
+    background-color: rgb(154, 228, 106);
+    
 }
 
 /* 
-    Selectors
+    # Selectors
+
     * -> Global selector
     h1/h2/p/div -> Element/Type selector
     #box /#container -> ID selector 
     .red / .m-4 -> Class selector
-    
+
+    # Stylesheet Rules
+
+    inline -> Comes directly from html, overwrite css assignements
+    style -> Style tag
+    CSS Cascade
 
 */
