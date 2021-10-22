@@ -57,10 +57,53 @@ Creating a box model
     #box /#container -> ID selector 
     .red / .m-4 -> Class selector
 
+    0. Universal Selector -> *
+    1. Element type selector -> <h1>
+    10. Class and attribute selectors -> <h1 class="title"> / .title -> CSS
+    100. id selector -> #oi
+    1000. Inline -> <h1 style="">
+
     # Stylesheet Rules
 
     inline -> Comes directly from html, overwrite css assignements
     style -> Style tag
     CSS Cascade
 
+    if tag style is under inline style comment, cascading will be the strongest
+
+    h1 {
+        color: blue !important
+    }
+
+    The !important will overwrite every other command, avoid using it
+
+
+    @import serve para incluir um CSS externo.
+    @media são regras condicionais para vários dispositivos.
+    @font-face é para colocar fontes externas.
+    @keyframes serve para as animations do CSS.
+
+
+*/
+
+/* 
+    background properties
+    background-color: #000;
+    background-image: url(images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    background shorthand
+    background: #000 url(images/bg.gif) no-repeat left top;
+
+    font properties
+    font-style: italic;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+
+    font shorthand 
+    font: bold italic .8em/1.2 Arial, sans-serif; 
+    
 */
